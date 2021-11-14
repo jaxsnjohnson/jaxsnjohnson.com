@@ -92,11 +92,12 @@
 .u-section-2 .u-text-1 {
   margin: 1px 0;
 }.u-section-3 .u-sheet-1 {
-  min-height: 336px;
+  min-height: 835px;
 }
 
 .u-section-3 .u-table-1 {
-  margin: 6px auto 6px 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .u-section-3 .u-table-entity-1 {
@@ -105,13 +106,6 @@
 
 .u-block-d392-4 {
   background-image: none;
-}
-
-@media (max-width: 1199px) {
-  .u-section-3 .u-table-1 {
-    margin-right: initial;
-    margin-left: initial;
-  }
 } .u-section-4 {
   background-image: linear-gradient(to right, #c94e47, #baa0d8);
 }
