@@ -1,7 +1,7 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/IMG_4368.CR2.jpg");
   background-position: 26.41% 46.5%;
-  background-size: 175%;
+  background-size: auto 175%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -86,11 +86,17 @@
     margin-right: 0;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 177px;
+  min-height: 224px;
 }
 
 .u-section-2 .u-text-1 {
-  margin: 0 0 1px;
+  margin: 24px 0;
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-text-1 {
+    margin-top: 0;
+  }
 }.u-section-3 .u-sheet-1 {
   min-height: 835px;
 }
@@ -117,13 +123,12 @@
 .u-section-4 .u-text-1 {
   font-size: 6rem;
   background-image: none;
-  margin: 296px 110px 60px;
+  margin: 60px 110px;
 }
 
 @media (max-width: 767px) {
   .u-section-4 .u-text-1 {
     font-size: 3.75rem;
-    margin-top: 60px;
   }
 }
 
@@ -131,4 +136,10 @@
   .u-section-4 .u-text-1 {
     font-size: 3rem;
   }
+}.u-section-5 .u-sheet-1 {
+  min-height: 404px;
+}
+
+.u-section-5 .u-text-1 {
+  margin: 36px 0;
 }
